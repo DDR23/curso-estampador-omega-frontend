@@ -54,7 +54,6 @@ header {
                 font-weight: 300;
                 font-size: 18px;
                 line-height: 125%;
-                font-weight: ;
             }
 
             #info span{
@@ -91,4 +90,34 @@ header {
         background-image: url(/src/imagens/bg-minimal-compressed.png);
         width: 50%;
         height: 900px;
+    }
+
+
+                    /*SEGUNDA SESSÃO*/
+
+section#info-extra{
+    background-color: #f72112;
+}
+
+section#barra-info-extra{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+}
+
+    #barra-info-extra h3{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        font-weight: normal;
+        margin: auto;
+        color: #000000;
+        align-items: center;
+    }    
+
+    #barra-info-extra img{
+        margin-bottom: 15px;
+        width: 40px;
     }
