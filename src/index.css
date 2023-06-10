@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;;
+}
+
+                    /*PRIMEIRA SESSÃO*/
+
+header {
+    display: flex;
+    height: 900px;
+    background-image: url(/src/imagens/bg-minimal-compressed.png);
+}
+
+    aside#header-esquerdo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e0e0e0;
+        width: 50%;
+        height: 900px;
+    }
+        #info{
+            margin: 45px;
+            width: 615px;
+            height: 700px;
+        }
+            #logo-nome{
+                display: flex;
+                align-items: center;
+            }
+                #logo-nome h1{
+                    margin-left: 15px;
+                    font-size: 40px;
+                    font-weight: 300;
+                    line-height: 100%;
+                }
+
+                #logo-nome strong{
+                    font-size: 40px;
+                    font-weight: 700;
+                }
+            
+            #info h2{
+                margin-top: 20px;
+                font-weight: 600;
+                font-size: 26px;
+            }
+
+            #info h3{
+                margin-top: 10px;
+                margin-bottom: 50px;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 125%;
+                font-weight: ;
+            }
+
+            #info span{
+                font-size: 22px;
+                font-weight: 500;
+            }
+
+            button{
+                width: 100%;
+                padding: 12px;
+                font-size: 18px;
+                border-radius: 10px;
+                border: 2px solid #f72112;
+                color: #f72112;
+                font-weight: bold;
+                cursor: pointer;
+                background-color: #e0e0e0;
+            }
+
+                button:hover{
+                    background-color: #f72112;
+                    color: #e0e0e0;
+                }
+
+            #info p{
+                font-size: 12px;
+                font-style: italic;
+                margin-left: 5px;
+                margin-top: 5px;
+            }
+
+    aside#header-direito{
+        display: flex;
+        background-image: url(/src/imagens/bg-minimal-compressed.png);
+        width: 50%;
+        height: 900px;
+    }
