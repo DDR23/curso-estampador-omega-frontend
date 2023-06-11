@@ -2,7 +2,9 @@
 
 *{
     margin: 0px;
-    font-family: 'Ubuntu', sans-serif;;background-color: #e0e0e0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e0e0e0;
 }
 
                     /*PRIMEIRA SESSÃO*/
@@ -50,7 +52,7 @@ header {
 
             #info h3{
                 margin-top: 10px;
-                margin-bottom: 50px;
+                margin-bottom: 40px;
                 font-weight: 300;
                 font-size: 18px;
                 line-height: 125%;
@@ -62,6 +64,7 @@ header {
             }
 
             button{
+                text-decoration: none;
                 width: 100%;
                 padding: 12px;
                 font-size: 18px;
@@ -176,4 +179,53 @@ section#area-info-professor{
         .strong-red{
             color: #ff2800;
         }
+
+
+                    /*QUARTA SESSÃO*/
+
+section#info-adicionais{
+    display: flex;
+    margin: auto;
+    height: 740px;
+    width: 90%;
+    background-color: #e0e0e0;
+    border-top: 1px solid #ff2800;
+}
+
+    #quarta-sessao-topo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 60px auto;
+    }
+
+        #quarta-sessao-topo h2{
+            font-size: 4vw;
+            font-weight: 500;
+            margin-bottom: 45px;
+        }
+
+        #quarta-sessao-topo-info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            #info-btn-maps{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                width: 50%;
+                margin: 20px;
+            }
+
+                #info-btn-maps h3{
+                    font-weight: 500;
+                    padding-bottom: 20px;
+                    font-size: 20px;
+                }
+
+                #info-btn-maps input{
+                    margin-top: 20px;
+                }
 
