@@ -2,9 +2,11 @@
 
 *{
     margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
     background-color: #e0e0e0;
+    color: #202020;
 }
 
                     /*PRIMEIRA SESSÃO*/
@@ -117,7 +119,7 @@ section#barra-info-extra{
         font-size: 25px;
         font-weight: normal;
         margin: auto;
-        color: #000000;
+        color: #202020;
         align-items: center;
         text-align: center;
         background-color: #ff2800;
@@ -186,7 +188,7 @@ section#area-info-professor{
 section#info-adicionais{
     display: flex;
     margin: auto;
-    height: 740px;
+    height: 700px;
     width: 90%;
     background-color: #e0e0e0;
     border-top: 1px solid #ff2800;
@@ -228,4 +230,78 @@ section#info-adicionais{
                 #info-btn-maps input{
                     margin-top: 20px;
                 }
+
+
+                    /*QUINTA SESSÃO*/
+
+section#turmas-depoimentos-geral{
+    width: 100%;
+    height: 45vh;
+    margin-top: 50px;
+    background-color: #e0e0e0;
+}
+
+    #turmas-depoimentos{
+        border-top: 1px solid #ff2800;
+        display: flex;
+        margin: 0 auto;
+        width: 90%;
+        height: 65vh;
+    }
+
+        #turmas{
+            display: flex;
+            justify-content: center;
+            width: 50%;
+            height: 100%;
+        }
+
+            #slider{
+                display: flex;
+                align-items: center;
+                width: 30vw;
+                min-width: 330px;
+                max-width: 400px;
+                position: relative;
+            }
+
+                #slider img{
+                    opacity: 0;
+                    width: 100%;
+                    position: absolute;
+                    transition: opacity 1000ms;
+                }
+
+                    #slider img.selected{
+                        opacity: 1;
+                    }
+
+
+        #depoimentos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 50%;
+            height: 100%;
+        }
+
+            #depoimentos img{
+                width: 100px;
+                border-radius: 50%;
+                border: none;
+            }
+
+            #depoimentos h3{
+                margin-top: 35px;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 150%;
+                max-width: 600px;
+            }
+
+            #depoimentos i{
+                margin: 0px 30px;
+            }
 
