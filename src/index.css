@@ -236,7 +236,7 @@ section#info-adicionais{
 
 section#turmas-depoimentos-geral{
     width: 100%;
-    height: 45vh;
+    height: auto;
     margin-top: 50px;
     background-color: #e0e0e0;
 }
@@ -305,3 +305,47 @@ section#turmas-depoimentos-geral{
                 margin: 0px 30px;
             }
 
+
+                    /*SEXTA SESSÃO*/
+
+section#duvidas-geral{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #ff2800;
+}
+section#duvidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 600px;
+    min-height: 500px;
+    background-color: #ff2800;
+    background-color: #ff2800;
+}
+
+    #duvidas h2{
+        font-size: 4vw;
+        font-weight: 500;
+        margin-bottom: 65px;
+        background-color: #ff2800;
+        color: #e0e0e0;
+    }
+
+    #duvidas h3{
+        padding: 5px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        font-size: 20px;
+        background-color: #e0e0e0;
+        color: #ff2800;
+        border-radius: 3px;
+    }
+
+    #duvidas p{
+        background-color: #ff2800;
+        color: #e0e0e0;
+        margin-bottom: 20px;
+    }
