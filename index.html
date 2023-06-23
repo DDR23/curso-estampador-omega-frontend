@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
     <script src="https://kit.fontawesome.com/4dfc617a32.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/src/index.css">
     <title>Estampador de Sucesso</title>
@@ -35,9 +38,9 @@
 
     <section id="info-extra">
         <section id="barra-info-extra">
-            <h3><img src="/src/icons/college.png" alt="">Certificado de conclusão</h3>
-            <h3><img src="/src/icons/clock.png" alt="">XX horas de aula</h3>
-            <h3><img src="/src/icons/location.png" alt="">Aulas Presencias</h3>
+            <h3><img src="/src/icons/relogio.png" alt="">XX horas de aula</h3>
+            <h3><img src="/src/icons/chapeu-de-graduacao.png" alt="">Certificado de conclusão</h3>
+            <h3><img src="/src/icons/marcador.png" alt="">Aulas Presencias</h3>
         </section>
     </section>
 
@@ -99,15 +102,91 @@
     <section id="duvidas-geral">
         <section id="duvidas">
             <h2>Dúvidas frequêntes</h2>
-            <h3>Como faço para realizar a inscrição?</h3>
-            <p>apertando no botão no topo o no final da pagina</p>
-            <h3>A duração do curso?</h3>
-            <p>Nosso curso tem duração de 15 dias, e é realizado todas as segundas e quintas </p>
-            <h3>Ganho certificado?</h3>
-            <p>Ao final do curso, você concluindo todos os módulos emitimos um certificado de conclusão.
-            </p>
-            <h3>Quanto será o investimento para realizar?</h3>
-            <p>Nossa capacitação não tem custos é totalmente gratuita. </p>
+
+                <!--EFEITO ACORDEON-->
+
+            <div class="container">
+                <div class="content">
+
+
+                  <div class="accordion_item">
+                    <div class="accordion_header">
+                      <span>
+                        Como faço para realizar a inscrição?
+                      </span> 
+                      <div class="icon">
+                        +
+                      </div>
+                    </div>
+            
+                    <div class="accordion_content">
+                      <p>
+                        Após clicar no botão "QUERO PARTICIPAR DA CAPACITAÇÃO" no início ou no final da pagina, voçê será redirecionado para o nosso atendimento via whatsapp. 
+                      </p>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion_item">
+                    <div class="accordion_header">
+                      <span>
+                        Qual a duração do capacitação?
+                      </span> 
+                      <div class="icon">
+                        +
+                      </div>
+                    </div>
+            
+                    <div class="accordion_content">
+                      <p>
+                        Nossa capacitação tem uma duração de 15 dias e é realizado nas Segundas e Quintas.
+                    </div>
+                  </div>
+
+
+                  <div class="accordion_item">
+                    <div class="accordion_header">
+                      <span>
+                        Ganho algum certificado ao final da capacitação?
+                      </span> 
+                      <div class="icon">
+                        +
+                      </div>
+                    </div>
+            
+                    <div class="accordion_content">
+                      <p>
+                        Ao final da capacitação, após ter concluído todos os módulos, você receberá um certificado de conclusão.
+                      </p>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion_item">
+                    <div class="accordion_header">
+                      <span>
+                        Quanto será o investimento para participar?
+                      </span> 
+                      <div class="icon">
+                        +
+                      </div>
+                    </div>
+            
+                    <div class="accordion_content">
+                      <p>
+                        A nossa capacitação não tem custos, é totalmente gratuita.
+                      </p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            
+
+
+
+
         </section>
     </section>
     
@@ -115,7 +194,7 @@
 
     <section id="area-cta">
         <section id="btn-cta">
-            <h2>Quer ter uma vida com mais <span>COR</span>  e <strong>INTENSIDADE</strong>?</h2>
+            <h2>Quer ter uma vida com mais <span id="cor">COR</span>  e <strong>INTENSIDADE</strong> ?</h2>
             <h3>Se inscreva já no curso Estampador de Sucesso</h3>
             <section id="btn">
                 <a href="https://linktr.ee/omegamarketing" target="_blank"><button>Quero participar da capacitação</button></a>
