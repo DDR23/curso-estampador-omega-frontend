@@ -669,7 +669,7 @@ section#btn-cta{
     }
     section#turmas-depoimentos-geral{
         margin-top: 0px;
-        height: 680px;
+        height: 700px;
     }
     section#turmas-depoimentos{
         display: flex;
@@ -686,10 +686,9 @@ section#btn-cta{
     }
     #depoimentos{
         width: 90%;
-        margin: 40px 0px;
     }
     #depoimentos img{
-        width: 15%;
+        width: 20%;
     }
     #depoimentos h3{
         font-size: 12px;
