@@ -104,7 +104,6 @@ header {
 
 section#info-extra{
     display: flex;
-    height: 240px;
     background-color: #ff2800;
 }
 
@@ -114,9 +113,8 @@ section#barra-info-extra{
     display: flex;
     justify-content: center;
     background-color: transparent;
-    height: auto;
     width: 90%;
-    margin: auto;
+    margin: 40px auto;
 }
 
     #barra-info-extra h3{
@@ -194,7 +192,7 @@ section#area-info-professor{
 section#info-adicionais{
     display: flex;
     margin: auto;
-    height: 700px;
+    height: auto;
     width: 90%;
     background-color: #e0e0e0;
     border-top: 1px solid #ff2800;
@@ -532,3 +530,141 @@ section#btn-cta{
 }
 
 
+
+
+/*---------------------------MEDIA-QUERY-TABLET----------------------------*/
+
+
+
+@media only screen and (max-width: 600px){
+    header {
+        height: 700px;
+    }
+    aside#header-esquerdo{
+        margin: auto;
+    }
+    #info{
+        margin: 25px;
+        width: 615px;
+        height: auto;
+    }
+        #logo-nome img{
+            width: 30%;
+        }
+            #logo-nome h1{
+                font-size: 20px;
+            }
+
+            #logo-nome strong{
+                font-size: 22px;
+            }
+        
+        #info h2{
+            font-size: 16px;
+        }
+
+        #info h3{
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+
+        #info span{
+            font-size: 14px;
+        }
+
+    button{
+        font-size: 14px;
+    }
+    #info p{
+        font-size: 8px;
+    }
+    section#barra-info-extra{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;    
+    }
+    #barra-info-extra h3{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    section#area-info-professor{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+    }
+    #info-professor{
+        width: 100%;
+        margin: 40px auto;
+    }
+    #info-professor h1{
+        font-size: 7vw;
+        text-align: center;
+    }
+    #info-professor h3{
+        text-align: center;
+        font-size: 12px;
+        line-height: 145%;
+    }
+    #img-professor{
+        margin-bottom: 40px;
+    }
+    #quarta-sessao-topo{
+        margin: 0px;
+        margin-top: 40px;
+    }
+    #quarta-sessao-topo h2{
+        font-size: 7vw;
+    }
+    #info-btn-maps h3{
+        font-size: 14px;
+    }
+    section#turmas-depoimentos-geral{
+        margin-top: 0px;
+        height: 680px;
+    }
+    section#turmas-depoimentos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #slider img{
+        width: 70%;
+    }
+    #slider{
+        display: flex;
+        justify-content: center;
+        height: 301px
+    }
+    #depoimentos{
+        width: 90%;
+        margin: 40px 0px;
+    }
+    #depoimentos img{
+        width: 15%;
+    }
+    #depoimentos h3{
+        font-size: 12px;
+    }
+    #duvidas h2{
+        font-size: 7vw;
+    }
+    .accordion_header {
+        font-size: 14px;
+    }
+    .accordion_content {
+        font-size: 10px;
+    }
+    #btn-cta h2{
+        font-size: 8vw;
+        line-height: 170%;
+        margin-top: 40px;
+    }
+    span#cor{
+        font-size: 8vw;
+    }
+    #btn-cta h3{
+        margin-top: 60px;
+        font-size: 14px;
+    }
+}
