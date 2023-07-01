@@ -61,6 +61,7 @@ header {
             }
 
             #info span{
+                color: #202020;
                 font-size: 22px;
                 font-weight: 500;
             }
@@ -84,6 +85,7 @@ header {
                 }
 
             #info p{
+                color: #ff2800;
                 font-size: 12px;
                 font-style: italic;
                 margin-left: 5px;
@@ -111,9 +113,9 @@ section#barra-info-extra{
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    background-color: #da0d0dc9;
+    background-color: transparent;
     height: auto;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -457,3 +459,76 @@ section#btn-cta{
     #btn-cta button:hover{
         background-color: #ff2800;
     }
+
+
+
+
+/*---------------------------MEDIA-QUERY-TABLET----------------------------*/
+
+
+@media only screen and (max-width: 960px) {
+    header{
+        display: flex;
+    }
+    aside#header-esquerdo{
+        margin: auto;
+        height: 85%;
+        width: 85%;
+        background-color: #e0e0e0be;
+        border-radius: 10px;
+    }
+    aside#header-direito{
+        display: none;
+    }
+    #info{
+        background-color: transparent;
+    }
+    #logo-nome{
+        background-color: transparent;
+    }
+    #logo-nome h1{
+        background-color: transparent;
+    }
+    #logo-nome strong{
+        background-color: transparent;
+    }
+    #info h2{
+        background-color: transparent;
+    }
+    #info h3{
+        background-color: transparent;
+    }
+    #info img{
+        background-color: transparent;
+    }
+    #info span, strong{
+        background-color: transparent;
+    }
+    button{
+        background-color: #ff2800;
+        color: #e0e0e0;
+    }
+    section#barra-info-extra{
+        width: 70%;
+    }
+    #info-professor h1{
+        font-size: 5vw;
+    }
+    #quarta-sessao-topo h2{
+        font-size: 5vw;
+    }
+    #duvidas h2{
+        font-size: 5vw;
+    }
+    #btn-cta h2{
+        font-size: 5vw;
+    }
+    #btn-cta span{
+        font-size: 5vw;
+    }
+    #btn button{
+        background-color: #ff2800;
+    }
+}
+
+
