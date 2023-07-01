@@ -536,6 +536,54 @@ section#btn-cta{
 
 
 
+@media only screen and (max-width: 800px){
+    #barra-info-extra h3{
+        font-size: 20px;
+    }
+    #info-professor h3{
+        font-size: 16px;
+        line-height: 145%;
+    }
+    #info-btn-maps h3{
+        font-size: 18px;
+    }
+    section#turmas-depoimentos-geral{
+        margin-top: 0px;
+        height: 680px;
+    }
+    section#turmas-depoimentos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #slider img{
+        width: 100%;
+    }
+    #slider{
+        display: flex;
+        justify-content: center;
+        height: 330px;
+        margin: 40px 0px;
+    }
+    #depoimentos{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    #depoimentos img{
+        width: 10%;
+    }
+    #depoimentos h3{
+        font-size: 12px;
+    }
+}
+
+
+
+
+/*---------------------------MEDIA-QUERY-MOBILE----------------------------*/
+
+
+
 @media only screen and (max-width: 600px){
     header {
         height: 700px;
