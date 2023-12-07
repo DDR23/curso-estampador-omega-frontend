@@ -1,4 +1,4 @@
-# Ladingpage-Estampador-de-Sucesso---OMEGA
+# projeto-ladingpage-estampador-de-sucesso---OMEGA
 
 Projeto FINALIZADO!
 
