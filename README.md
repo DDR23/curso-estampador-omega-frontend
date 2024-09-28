@@ -1,4 +1,4 @@
-# projeto---FRONTEND---ladingpage-estampador-de-sucesso---OMEGA
+# projeto---FRONTEND---landingpage-estampador-de-sucesso---OMEGA
 
 ## Sobre o projeto
 Esse projeto trata-se de uma landingpage para captação de pessoas interessadas em participar da terceira turma do curso ESTAMPADOR DE SUCESSO.
