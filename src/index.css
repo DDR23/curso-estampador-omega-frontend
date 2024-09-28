@@ -1,532 +1,551 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #e0e0e0;
-    color: #202020;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #e0e0e0;
+  color: #202020;
 }
 
-                    /*PRIMEIRA SESSÃO*/
-
+/*PRIMEIRA SESSÃO*/
 header {
-    display: flex;
-    height: 900px;
-    background-image: url(/src/imagens/bg-minimal-compressed.png);
+  display: flex;
+  height: 900px;
+  background-image: url(/src/imagens/bg-minimal-compressed.png);
 }
 
-    aside#header-esquerdo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #e0e0e0;
-        width: 50%;
-        height: 900px;
-    }
-        #info{
-            margin: 45px;
-            width: 615px;
-            height: 700px;
-        }
-            #logo-nome{
-                display: flex;
-                align-items: center;
-            }
-                #logo-nome h1{
-                    margin-left: 15px;
-                    font-size: 40px;
-                    font-weight: 300;
-                    line-height: 100%;
-                }
-
-                #logo-nome strong{
-                    font-size: 40px;
-                    font-weight: 700;
-                }
-            
-            #info h2{
-                margin-top: 20px;
-                font-weight: 600;
-                font-size: 26px;
-            }
-
-            #info h3{
-                margin-top: 10px;
-                margin-bottom: 40px;
-                font-weight: 300;
-                font-size: 18px;
-                line-height: 125%;
-            }
-
-            #info span{
-                color: #202020;
-                font-size: 22px;
-                font-weight: 500;
-            }
-
-            button{
-                text-decoration: none;
-                width: 100%;
-                padding: 12px;
-                font-size: 18px;
-                border-radius: 5px;
-                border: 2px solid #ff2800;
-                color: #ff2800;
-                font-weight: bold;
-                cursor: pointer;
-                background-color: #e0e0e0;
-            }
-
-                button:hover{
-                    background-color: #ff2800;
-                    color: #e0e0e0;
-                }
-
-            #info p{
-                color: #ff2800;
-                font-size: 12px;
-                font-style: italic;
-                margin-left: 5px;
-                margin-top: 5px;
-            }
-
-    aside#header-direito{
-        display: flex;
-        background-image: url(/src/imagens/bg-minimal-compressed.png);
-        width: 50%;
-        height: 900px;
-    }
-
-
-                    /*SEGUNDA SESSÃO*/
-
-section#info-extra{
-    display: flex;
-    background-color: #ff2800;
+aside#header-esquerdo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  width: 50%;
+  height: 900px;
 }
 
-section#barra-info-extra{
-    padding: 20px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
-    width: 90%;
-    margin: 40px auto;
+#info {
+  margin: 45px;
+  width: 615px;
+  height: 700px;
 }
 
-    #barra-info-extra h3{
-        display: flex;
-        flex-direction: column;
-        font-size: 25px;
-        font-weight: normal;
-        margin: auto;
-        color: #e0e0e0;
-        align-items: center;
-        text-align: center;
-        background-color: transparent;
-    }    
-
-    #barra-info-extra img{
-        margin-bottom: 15px;
-        width: 35px;
-        margin-top: 35px;
-        background-color: transparent;
-    }
-
-
-                    /*TERCEIRA SESSÃO*/
-
-section#area-info-professor{
-    display: flex;
-    margin: auto;
-    height: 740px;
-    width: 90%;
-    background-color: #e0e0e0;
+#logo-nome {
+  display: flex;
+  align-items: center;
 }
 
-    #img-professor{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-    }
-
-    #img-professor img{
-        width: 90%;
-        max-width: 400px;
-        border-radius: 10px;
-    }
-
-    #info-professor{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0px 10px;
-        width: 50%;
-        max-width: 600px;
-    }
-
-        #info-professor h1{
-            font-size: 4vw;
-            font-weight: 500;
-        }
-
-        #info-professor h3{
-            border-top: 1px solid #ff2800;
-            margin-top: 25px;
-            font-weight: 300;
-            padding-top: 25px;
-            font-size: 20px;
-        }
-
-        .strong-red{
-            color: #ff2800;
-        }
-
-
-                    /*QUARTA SESSÃO*/
-
-section#info-adicionais{
-    display: flex;
-    margin: auto;
-    height: auto;
-    width: 90%;
-    background-color: #e0e0e0;
-    border-top: 1px solid #ff2800;
+#logo-nome h1 {
+  margin-left: 15px;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 100%;
 }
 
-    #quarta-sessao-topo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 60px auto;
-    }
-
-        #quarta-sessao-topo h2{
-            font-size: 4vw;
-            font-weight: 500;
-            margin-bottom: 45px;
-        }
-
-        #quarta-sessao-topo-info{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-            #info-btn-maps{
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                width: 50%;
-                margin: 20px;
-            }
-
-                #info-btn-maps h3{
-                    font-weight: 500;
-                    padding-bottom: 20px;
-                    font-size: 20px;
-                }
-
-                
-                    /*QUINTA SESSÃO*/
-
-section#turmas-depoimentos-geral{
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
-    background-color: #e0e0e0;
+#logo-nome strong {
+  font-size: 40px;
+  font-weight: 700;
 }
 
-    #turmas-depoimentos{
-        border-top: 1px solid #ff2800;
-        display: flex;
-        margin: 0 auto;
-        width: 90%;
-        height: 65vh;
-    }
-
-        #turmas{
-            display: flex;
-            justify-content: center;
-            width: 50%;
-            height: 100%;
-        }
-
-            #slider{
-                display: flex;
-                align-items: center;
-                width: 30vw;
-                min-width: 330px;
-                max-width: 400px;
-                position: relative;
-            }
-
-                #slider img{
-                    opacity: 0;
-                    width: 100%;
-                    position: absolute;
-                    transition: opacity 1000ms;
-                }
-
-                    #slider img.selected{
-                        opacity: 1;
-                    }
-
-
-        #depoimentos{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            width: 50%;
-            height: 100%;
-        }
-
-            #depoimentos img{
-                width: 100px;
-                border-radius: 50%;
-                border: none;
-            }
-
-            #depoimentos h3{
-                margin-top: 35px;
-                font-weight: 300;
-                font-size: 16px;
-                line-height: 150%;
-                max-width: 600px;
-            }
-
-            #depoimentos i{
-                margin: 0px 30px;
-            }
-
-
-                    /*SEXTA SESSÃO*/
-
-section#duvidas-geral{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #ff2800;
-}
-    section#duvidas{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 90%;
-        height: auto;
-        margin-bottom: 65px;
-        background-color: transparent;
-    }
-
-        #duvidas h2{
-            font-size: 4vw;
-            font-weight: 500;
-            margin-bottom: 60px;
-            margin-top: 65px;
-            background-color: transparent;
-            color: #e0e0e0;
-        }
-
-        .container {
-            box-shadow: 8px 10px 5px #0003;
-            width: 80%;
-            max-width: 900px;
-            background-color: #e0e0e0;
-            border-radius: 5px;
-            padding: 10px;
-            margin: auto 5px;
-        }
-          
-            .content {
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-                background-color: transparent;
-            }
-            
-            .accordion_item {
-                border-radius: 5px;
-                background-color: #ff2800;
-            }
-            
-            .accordion_item:hover {
-                opacity: 0.9;
-            }
-            
-            .accordion_header {
-                padding: 10px;
-                cursor: pointer;
-                display: flex;
-                justify-content: space-between;
-                background-color: transparent;
-                font-size: 18px;
-            }
-            
-            .accordion_content {
-                margin-left: 10px;
-                margin-right: 15px;
-                overflow: hidden;
-                height: 0;
-                transition: all .5s ease;
-                font-size: 16px;
-                background-color: transparent;
-            }
-            
-            .active {
-                padding-bottom: 10px;
-                background-color: transparent;
-            }
-            
-            span, .icon {
-                font-weight: 600;
-                background-color: transparent;
-                color: #e0e0e0;
-            }
-            
-            p {
-                text-align: justify;
-                background-color: transparent;
-                color: #e0e0e0;
-            }
-
-
-                    /*AREA CTA*/
-
-section#area-cta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    background-color: #202020;
-}
-section#btn-cta{
-    width: 90%;
-    background-color: #202020;
+#info h2 {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 26px;
 }
 
-    #btn-cta h2{
-        color: #e0e0e0;
-        background-color: #202020;
-        font-size: 3vw;
-        font-weight: 500;
-        margin-top: 100px;
-    }
+#info h3 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 125%;
+}
 
-    #btn-cta h3{
-        margin-top: 100px;
-        font-size: 22px;
-        color: #e0e0e0;
-        background-color: #202020;
-    }
+#info span {
+  color: #202020;
+  font-size: 22px;
+  font-weight: 500;
+}
 
-    span#cor{
-        background-color: #ff2800;
-        color: #e0e0e0;
-        padding: 10px;
-        font-size: 3vw;
-        font-weight: 500;
-        border-radius: 5px;
-    }
-    #btn-cta strong{
-        font-weight: 700;
-        color: #ff2800;
-        background-color: #202020;
-    }
+button {
+  text-decoration: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #ff2800;
+  color: #ff2800;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #e0e0e0;
+}
 
-    #btn-cta button, a{
-        width: 80%;
-        margin-top: 20px;
-        margin-bottom: 50px;
-        background-color: transparent;
-    }
+button:hover {
+  background-color: #ff2800;
+  color: #e0e0e0;
+}
 
-    #btn{
-        margin: auto;
-        background-color: #202020;
-        max-width: 700px;
-    }
+#info p {
+  color: #ff2800;
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 5px;
+  margin-top: 5px;
+}
 
-    #btn-cta button:hover{
-        background-color: #ff2800;
-    }
+aside#header-direito {
+  display: flex;
+  background-image: url(/src/imagens/bg-minimal-compressed.png);
+  width: 50%;
+  height: 900px;
+}
+
+
+/*SEGUNDA SESSÃO*/
+section#info-extra {
+  display: flex;
+  background-color: #ff2800;
+}
+
+section#barra-info-extra {
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  width: 90%;
+  margin: 40px auto;
+}
+
+#barra-info-extra h3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: normal;
+  margin: auto;
+  color: #e0e0e0;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+}
+
+#barra-info-extra img {
+  margin-bottom: 15px;
+  width: 35px;
+  margin-top: 35px;
+  background-color: transparent;
+}
+
+
+/*TERCEIRA SESSÃO*/
+section#area-info-professor {
+  display: flex;
+  margin: auto;
+  height: 740px;
+  width: 90%;
+  background-color: #e0e0e0;
+}
+
+#img-professor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+#img-professor img {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+#info-professor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 10px;
+  width: 50%;
+  max-width: 600px;
+}
+
+#info-professor h1 {
+  font-size: 4vw;
+  font-weight: 500;
+}
+
+#info-professor h3 {
+  border-top: 1px solid #ff2800;
+  margin-top: 25px;
+  font-weight: 300;
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+.strong-red {
+  color: #ff2800;
+}
+
+
+/*QUARTA SESSÃO*/
+section#info-adicionais {
+  display: flex;
+  margin: auto;
+  height: auto;
+  width: 90%;
+  background-color: #e0e0e0;
+  border-top: 1px solid #ff2800;
+}
+
+#quarta-sessao-topo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto;
+}
+
+#quarta-sessao-topo h2 {
+  font-size: 4vw;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+
+#quarta-sessao-topo-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info-btn-maps {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin: 20px;
+}
+
+#info-btn-maps h3 {
+  font-weight: 500;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+
+/*QUINTA SESSÃO*/
+section#turmas-depoimentos-geral {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  background-color: #e0e0e0;
+}
+
+#turmas-depoimentos {
+  border-top: 1px solid #ff2800;
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  height: 65vh;
+}
+
+#turmas {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+#slider {
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  min-width: 330px;
+  max-width: 400px;
+  position: relative;
+}
+
+#slider img {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  transition: opacity 1000ms;
+}
+
+#slider img.selected {
+  opacity: 1;
+}
+
+
+#depoimentos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+}
+
+#depoimentos img {
+  width: 100px;
+  border-radius: 50%;
+  border: none;
+}
+
+#depoimentos h3 {
+  margin-top: 35px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  max-width: 600px;
+}
+
+#depoimentos i {
+  margin: 0px 30px;
+}
+
+
+/*SEXTA SESSÃO*/
+section#duvidas-geral {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ff2800;
+}
+
+section#duvidas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  margin-bottom: 65px;
+  background-color: transparent;
+}
+
+#duvidas h2 {
+  font-size: 4vw;
+  font-weight: 500;
+  margin-bottom: 60px;
+  margin-top: 65px;
+  background-color: transparent;
+  color: #e0e0e0;
+}
+
+.container {
+  box-shadow: 8px 10px 5px #0003;
+  width: 80%;
+  max-width: 900px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: transparent;
+}
+
+.accordion_item {
+  border-radius: 5px;
+  background-color: #ff2800;
+}
+
+.accordion_item:hover {
+  opacity: 0.9;
+}
+
+.accordion_header {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.accordion_content {
+  margin-left: 10px;
+  margin-right: 15px;
+  overflow: hidden;
+  height: 0;
+  transition: all .5s ease;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.active {
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+
+span,
+.icon {
+  font-weight: 600;
+  background-color: transparent;
+  color: #e0e0e0;
+}
+
+p {
+  text-align: justify;
+  background-color: transparent;
+  color: #e0e0e0;
+}
+
+
+/*AREA CTA*/
+section#area-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: #202020;
+}
+
+section#btn-cta {
+  width: 90%;
+  background-color: #202020;
+}
+
+#btn-cta h2 {
+  color: #e0e0e0;
+  background-color: #202020;
+  font-size: 3vw;
+  font-weight: 500;
+  margin-top: 100px;
+}
+
+#btn-cta h3 {
+  margin-top: 100px;
+  font-size: 22px;
+  color: #e0e0e0;
+  background-color: #202020;
+}
+
+span#cor {
+  background-color: #ff2800;
+  color: #e0e0e0;
+  padding: 10px;
+  font-size: 3vw;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+#btn-cta strong {
+  font-weight: 700;
+  color: #ff2800;
+  background-color: #202020;
+}
+
+#btn-cta button,
+a {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: transparent;
+}
+
+#btn {
+  margin: auto;
+  background-color: #202020;
+  max-width: 700px;
+}
+
+#btn-cta button:hover {
+  background-color: #ff2800;
+}
 
 
 
 
 /*---------------------------MEDIA-QUERY-TABLET----------------------------*/
-
 
 @media only screen and (max-width: 960px) {
-    header{
-        display: flex;
-    }
-    aside#header-esquerdo{
-        margin: auto;
-        height: 85%;
-        width: 85%;
-        background-color: #e0e0e0be;
-        border-radius: 10px;
-    }
-    aside#header-direito{
-        display: none;
-    }
-    #info{
-        background-color: transparent;
-    }
-    #logo-nome{
-        background-color: transparent;
-    }
-    #logo-nome h1{
-        background-color: transparent;
-    }
-    #logo-nome strong{
-        background-color: transparent;
-    }
-    #info h2{
-        background-color: transparent;
-    }
-    #info h3{
-        background-color: transparent;
-    }
-    #info img{
-        background-color: transparent;
-    }
-    #info span, strong{
-        background-color: transparent;
-    }
-    button{
-        background-color: #ff2800;
-        color: #e0e0e0;
-    }
-    section#barra-info-extra{
-        width: 70%;
-    }
-    #info-professor h1{
-        font-size: 5vw;
-    }
-    #quarta-sessao-topo h2{
-        font-size: 5vw;
-    }
-    #duvidas h2{
-        font-size: 5vw;
-    }
-    #btn-cta h2{
-        font-size: 5vw;
-    }
-    #btn-cta span{
-        font-size: 5vw;
-    }
-    #btn button{
-        background-color: #ff2800;
-    }
+  header {
+    display: flex;
+  }
+
+  aside#header-esquerdo {
+    margin: auto;
+    height: 85%;
+    width: 85%;
+    background-color: #e0e0e0be;
+    border-radius: 10px;
+  }
+
+  aside#header-direito {
+    display: none;
+  }
+
+  #info {
+    background-color: transparent;
+  }
+
+  #logo-nome {
+    background-color: transparent;
+  }
+
+  #logo-nome h1 {
+    background-color: transparent;
+  }
+
+  #logo-nome strong {
+    background-color: transparent;
+  }
+
+  #info h2 {
+    background-color: transparent;
+  }
+
+  #info h3 {
+    background-color: transparent;
+  }
+
+  #info img {
+    background-color: transparent;
+  }
+
+  #info span,
+  strong {
+    background-color: transparent;
+  }
+
+  button {
+    background-color: #ff2800;
+    color: #e0e0e0;
+  }
+
+  section#barra-info-extra {
+    width: 70%;
+  }
+
+  #info-professor h1 {
+    font-size: 5vw;
+  }
+
+  #quarta-sessao-topo h2 {
+    font-size: 5vw;
+  }
+
+  #duvidas h2 {
+    font-size: 5vw;
+  }
+
+  #btn-cta h2 {
+    font-size: 5vw;
+  }
+
+  #btn-cta span {
+    font-size: 5vw;
+  }
+
+  #btn button {
+    background-color: #ff2800;
+  }
 }
 
 
@@ -534,47 +553,54 @@ section#btn-cta{
 
 /*---------------------------MEDIA-QUERY-TABLET----------------------------*/
 
+@media only screen and (max-width: 800px) {
+  #barra-info-extra h3 {
+    font-size: 20px;
+  }
 
+  #info-professor h3 {
+    font-size: 16px;
+    line-height: 145%;
+  }
 
-@media only screen and (max-width: 800px){
-    #barra-info-extra h3{
-        font-size: 20px;
-    }
-    #info-professor h3{
-        font-size: 16px;
-        line-height: 145%;
-    }
-    #info-btn-maps h3{
-        font-size: 18px;
-    }
-    section#turmas-depoimentos-geral{
-        margin-top: 0px;
-        height: 680px;
-    }
-    section#turmas-depoimentos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #slider img{
-        width: 100%;
-    }
-    #slider{
-        display: flex;
-        justify-content: center;
-        height: 330px;
-        margin: 40px 0px;
-    }
-    #depoimentos{
-        width: 90%;
-        margin-bottom: 40px;
-    }
-    #depoimentos img{
-        width: 10%;
-    }
-    #depoimentos h3{
-        font-size: 12px;
-    }
+  #info-btn-maps h3 {
+    font-size: 18px;
+  }
+
+  section#turmas-depoimentos-geral {
+    margin-top: 0px;
+    height: 680px;
+  }
+
+  section#turmas-depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #slider img {
+    width: 100%;
+  }
+
+  #slider {
+    display: flex;
+    justify-content: center;
+    height: 330px;
+    margin: 40px 0px;
+  }
+
+  #depoimentos {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+
+  #depoimentos img {
+    width: 10%;
+  }
+
+  #depoimentos h3 {
+    font-size: 12px;
+  }
 }
 
 
@@ -582,136 +608,162 @@ section#btn-cta{
 
 /*---------------------------MEDIA-QUERY-MOBILE----------------------------*/
 
+@media only screen and (max-width: 600px) {
+  header {
+    height: 700px;
+  }
 
+  aside#header-esquerdo {
+    margin: auto;
+  }
 
-@media only screen and (max-width: 600px){
-    header {
-        height: 700px;
-    }
-    aside#header-esquerdo{
-        margin: auto;
-    }
-    #info{
-        margin: 25px;
-        width: 615px;
-        height: auto;
-    }
-        #logo-nome img{
-            width: 30%;
-        }
-            #logo-nome h1{
-                font-size: 20px;
-            }
+  #info {
+    margin: 25px;
+    width: 615px;
+    height: auto;
+  }
 
-            #logo-nome strong{
-                font-size: 22px;
-            }
-        
-        #info h2{
-            font-size: 16px;
-        }
+  #logo-nome img {
+    width: 30%;
+  }
 
-        #info h3{
-            margin-bottom: 20px;
-            font-size: 12px;
-        }
+  #logo-nome h1 {
+    font-size: 20px;
+  }
 
-        #info span{
-            font-size: 14px;
-        }
+  #logo-nome strong {
+    font-size: 22px;
+  }
 
-    button{
-        font-size: 14px;
-    }
-    #info p{
-        font-size: 8px;
-    }
-    section#barra-info-extra{
-        display: flex;
-        flex-direction: column;
-        margin-top: 0px;    
-    }
-    #barra-info-extra h3{
-        margin-top: 20px;
-        font-size: 18px;
-    }
-    section#area-info-professor{
-        display: flex;
-        flex-direction: column-reverse;
-        height: auto;
-        align-items: center;
-    }
-    #info-professor{
-        width: 100%;
-        margin: 40px auto;
-    }
-    #info-professor h1{
-        font-size: 7vw;
-        text-align: center;
-    }
-    #info-professor h3{
-        text-align: center;
-        font-size: 12px;
-        line-height: 145%;
-    }
-    #img-professor{
-        margin-bottom: 40px;
-    }
-    #quarta-sessao-topo{
-        margin: 0px;
-        margin-top: 40px;
-    }
-    #quarta-sessao-topo h2{
-        font-size: 7vw;
-    }
-    #info-btn-maps h3{
-        font-size: 14px;
-    }
-    section#turmas-depoimentos-geral{
-        margin-top: 0px;
-        height: 700px;
-    }
-    section#turmas-depoimentos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #slider img{
-        width: 70%;
-    }
-    #slider{
-        display: flex;
-        justify-content: center;
-        height: 301px
-    }
-    #depoimentos{
-        width: 90%;
-    }
-    #depoimentos img{
-        width: 20%;
-    }
-    #depoimentos h3{
-        font-size: 12px;
-    }
-    #duvidas h2{
-        font-size: 7vw;
-    }
-    .accordion_header {
-        font-size: 14px;
-    }
-    .accordion_content {
-        font-size: 10px;
-    }
-    #btn-cta h2{
-        font-size: 8vw;
-        line-height: 170%;
-        margin-top: 40px;
-    }
-    span#cor{
-        font-size: 8vw;
-    }
-    #btn-cta h3{
-        margin-top: 60px;
-        font-size: 14px;
-    }
+  #info h2 {
+    font-size: 16px;
+  }
+
+  #info h3 {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  #info span {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  #info p {
+    font-size: 8px;
+  }
+
+  section#barra-info-extra {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  #barra-info-extra h3 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  section#area-info-professor {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    align-items: center;
+  }
+
+  #info-professor {
+    width: 100%;
+    margin: 40px auto;
+  }
+
+  #info-professor h1 {
+    font-size: 7vw;
+    text-align: center;
+  }
+
+  #info-professor h3 {
+    text-align: center;
+    font-size: 12px;
+    line-height: 145%;
+  }
+
+  #img-professor {
+    margin-bottom: 40px;
+  }
+
+  #quarta-sessao-topo {
+    margin: 0px;
+    margin-top: 40px;
+  }
+
+  #quarta-sessao-topo h2 {
+    font-size: 7vw;
+  }
+
+  #info-btn-maps h3 {
+    font-size: 14px;
+  }
+
+  section#turmas-depoimentos-geral {
+    margin-top: 0px;
+    height: 700px;
+  }
+
+  section#turmas-depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #slider img {
+    width: 70%;
+  }
+
+  #slider {
+    display: flex;
+    justify-content: center;
+    height: 301px
+  }
+
+  #depoimentos {
+    width: 90%;
+  }
+
+  #depoimentos img {
+    width: 20%;
+  }
+
+  #depoimentos h3 {
+    font-size: 12px;
+  }
+
+  #duvidas h2 {
+    font-size: 7vw;
+  }
+
+  .accordion_header {
+    font-size: 14px;
+  }
+
+  .accordion_content {
+    font-size: 10px;
+  }
+
+  #btn-cta h2 {
+    font-size: 8vw;
+    line-height: 170%;
+    margin-top: 40px;
+  }
+
+  span#cor {
+    font-size: 8vw;
+  }
+
+  #btn-cta h3 {
+    margin-top: 60px;
+    font-size: 14px;
+  }
 }
