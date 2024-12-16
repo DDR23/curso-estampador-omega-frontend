@@ -1,7 +1,7 @@
-# projeto---FRONTEND---landingpage-estampador-de-sucesso---OMEGA
+# curso-estampador-omega-frontend
 
 ## Sobre o projeto
-Esse projeto trata-se de uma landingpage para captação de pessoas interessadas em participar da terceira turma do curso ESTAMPADOR DE SUCESSO.
+Esse projeto é uma landingpage para captação de pessoas interessadas em participar da terceira turma do curso ESTAMPADOR DE SUCESSO.
 
 Projeto hospedado em: https://singular-yeot-8863ca.netlify.app/
 
